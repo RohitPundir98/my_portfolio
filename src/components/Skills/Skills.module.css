@@ -1,0 +1,101 @@
+/* Skills.module.css */
+
+/* Container styles */
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Title styles */
+.title {
+  color: var(--color-secondary);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+/* Flex container styles */
+.flexBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Skill card styles */
+.box {
+  /* border: 2px solid #000; */
+  width: calc(25% - 20px); /* Adjust according to your layout */
+  max-width: 200px; /* Limit maximum width */
+  margin-right: 10px;
+  margin: 5px;
+  text-align: center;
+  /* padding: 20px; */
+}
+.imgBox {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: rgb(238, 229, 229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.imgBox:hover {
+  border: 2px Solid var(--color-secondary);
+  background-color: #2121;
+}
+
+.box img {
+  max-height: 100px;
+  overflow: hidden;
+  gap: 15px;
+  outline: none;
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.box img:hover {
+  transform: scale(1.3); /* Zoom in a little on hover */
+}
+
+/* Skill title styles */
+.box p {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: -45px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 830px) {
+  .box {
+    width: calc(50% - 20px); /* Adjust according to your layout */
+    max-width: 200px; /* Limit maximum width */
+  }
+
+  .imgBox {
+    border: 2px Solid black;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+  }
+
+  .box img {
+    max-height: 80px;
+    /* overflow: hidden; */
+    object-fit: contain;
+    gap: 15px;
+  }
+  .box p {
+    margin-left: 1px;
+  }
+}

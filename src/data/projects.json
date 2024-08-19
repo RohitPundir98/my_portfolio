@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Tic Tac Toe",
+    "imageSrc": "projects/tic-tac-toe.png",
+    "description": "It is a Tic Tac Toe game where you can play against the computer, testing your strategy and skills.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://rohitpundir98.github.io/TicTacToe/",
+    "source": "https://github.com/RohitPundir98/TicTacToe.git"
+  },
+  {
+    "title": "Netflix",
+    "imageSrc": "projects/Netflix.png",
+    "description": "Netflix Clone offers a platform to discover movies and TV shows, with detailed pages, ratings, trailers, cast, and user accounts.",
+    "skills": ["React", "TMDB API", "Firebase"],
+    "demo": "https://net-flix-front-end.netlify.app/",
+    "source": "https://github.com/RohitPundir98/Netflix_Frontend"
+  },
+  {
+    "title": "Typing Test",
+    "imageSrc": "projects/Typing.png",
+    "description": "Typing Test allows users to test their typing speed and accuracy by typing out a given paragraph within a set time limit.",
+    "skills": ["React + Vite", "Tailwind CSS"],
+    "demo": "https://typing-test-pearl.vercel.app/",
+    "source": "https://github.com/RohitPundir98/typing_test"
+  } 
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "logo/HTML.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "logo/CSS.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "logo/JS.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "logo/React.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "logo/Node.png"
+  },
+  {
+    "title": "Next.js",
+    "imageSrc": "logo/Next.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "logo/MongoDB.png"
+  },
+  {
+    "title": "Tailwind",
+    "imageSrc": "logo/Tailwind.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "logo/Bootstrap.png"
+  },
+  {
+    "title": "C",
+    "imageSrc": "logo/c.png"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "logo/GitHub.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "logo/Git.png"
+  },
+  {
+    "title": "Netlify",
+    "imageSrc": "logo/Netlify.svg"
+  }
+]

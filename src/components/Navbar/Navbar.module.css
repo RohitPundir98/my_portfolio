@@ -1,0 +1,132 @@
+@import "../../vars.css";
+
+.navbar {
+  position: Fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 0;
+  z-index: 2;
+  padding: 0 10%;
+  height: 12vh;
+  width: 100vw;
+  background: var(--color-dark);
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+.menuBtn {
+  display: none;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItems {
+  display: flex;
+  gap: 43px;
+  list-style: none;
+}
+
+.menuItems a {
+  font-size: 25px;
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+.menuItems a {
+  font-size: 25px;
+  color: var(--color-secondary);
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 2px;
+  transition: color 0.3s ease;
+}
+
+.menuItems a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-secondary);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.menuItems a:hover::after,
+.menuItems a.active::after {
+  width: 100%;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 830px) {
+  .menuItems a:hover::after {
+    width: 100%;
+  }
+
+  .menuItems a.active::after {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 8vh;
+    /* padding: 0 6%; */
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 6%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 6;
+  }
+
+  .menuBtn {
+    position: relative;
+    top: 15px;
+    margin-top: 3px;
+    color: var(--color-secondary);
+    display: block;
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+  .title {
+    position: relative;
+    top: 15px;
+  }
+
+  .menuItems {
+    z-index: 8;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    border-radius: 10px;
+    background: rgb(25, 30, 37);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgb(0, 0, 0) 100%);
+    padding: 24px 40px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    width: 280px;
+    height: 250px;
+    margin-right: -35px;
+  }
+
+  .menuOpen {
+    display: flex;
+    z-index: 5;
+  }
+}

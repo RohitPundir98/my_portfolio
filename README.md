@@ -20,6 +20,7 @@ This is my personal portfolio website built using React and CSS. It showcases my
 - React (single-page application)
 - Routing with React Router
 - React Fa-icons
+- EmailJS from sending user message 
 
 ## Features
 

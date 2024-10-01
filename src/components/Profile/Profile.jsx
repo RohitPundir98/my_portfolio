@@ -6,7 +6,7 @@ import { getImageUrl } from "../../utils";
 export const Profile = () => {
   // Function to handle resume download
   const handleDownload = () => {
-    const resumeUrl = getImageUrl("profile/RohitResume.pdf");
+    const resumeUrl = getImageUrl("profile/RohitPundirResume.pdf");
     window.open(resumeUrl, "_blank");
   };
 
